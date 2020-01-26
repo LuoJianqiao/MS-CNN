@@ -1,7 +1,6 @@
 MS-CNN
 
-1 Overviews
-
+.#1 Overviews
 The multi-task CNN with soft labels (MS-CNN) is a novel classification model. I realize the MS-CNN based on  Alex, ResNet, and VGG, respectively. The corresponding folders are ‘based_on_Alex’, ‘based_on_ResNet’, and ‘based_on_VGG’. Here we provider two public remote sensing datasets, the AID (the paper proposing the AID is ‘’), and the NR(the paper proposing the NR is ‘’).
 
 
@@ -10,54 +9,53 @@ The multi-task CNN with soft labels (MS-CNN) is a novel classification model. I 
 
 The file structure is as follows.
   
-        data:    
-                train		  
-                val		  
-                test		  
-                datagenerate.py
+data:    
+train		  
+val		  
+test		  
+datagenerate.py
   
-        public_dataset:      
-      	        AID.zip  		
-	        NR.rar
+public_dataset:      
+AID.zip  		
+NR.rar
         
-	based_on_Alex:          
-                soft_label:
-			BoW.py
-  			LDA.py
-			buildsoftlabel.py
-			dirichlet
-		  Alex_train.py
-		  Alex_test.py
-		  Alex_feature.py
-		  Alex_MS_train.py
-		  Alex_MS_test.py
-		  compare_result.py	
-  	
-		based_on_ResNet:
-		  soft_label:
-			BoW.py
-			LDA.py
-			buildsoftlabel.py
-			dirichlet
-		  ResNet_train.py
-		  ResNet_test.py
-		  ResNet_feature.py
-		  ResNet_MS_train.py
-		  ResNet_MS_test.py
-		  compare_result.py
+based_on_Alex:          
+soft_label:
+BoW.py
+LDA.py
+buildsoftlabel.py
+dirichlet
+Alex_train.py
+Alex_test.py
+Alex_feature.py
+Alex_MS_train.py
+Alex_MS_test.py
+compare_result.py	
+ based_on_ResNet:
+soft_label:
+BoW.py
+LDA.py
+buildsoftlabel.py
+dirichlet
+ResNet_train.py
+ResNet_test.py
+ResNet_feature.py
+ResNet_MS_train.py
+ResNet_MS_test.py
+compare_result.py
 	
-		based_on_VGG:
-		  soft_label:
-			BoW.py
-			LDA.py
-			buildsoftlabel.py
-			dirichlet
-		  VGG_train.py
-		  VGG_test.py
-		  VGG_feature.py
-		  VGG_MS_train.py
-		  VGG_MS_test.py
-		  compare_result.py
+based_on_VGG:
+soft_label:
+BoW.py
+LDA.py
+buildsoftlabel.py
+dirichlet
+VGG_train.py
+VGG_test.py
+VGG_feature.py
+VGG_MS_train.py
+VGG_MS_test.py
+compare_result.py
       
       
 3 Running requirements
