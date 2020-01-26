@@ -3,17 +3,14 @@ The multi-task CNN with soft labels (MS-CNN) is a novel classification model. I 
 # 2 File structure
 The file structure is as follows.<br>
 >MS-CNN:
-
 >>data:    
 >>>train		  
 >>>val		  
 >>>test		  
 >>>datagenerate.py
-
 >>public_dataset:      
 >>>AID.zip  		
->>>NR.rar
-        
+>>>NR.rar       
 >>based_on_Alex:          
 >>>soft_label:
 >>>>BoW.py
@@ -26,7 +23,6 @@ The file structure is as follows.<br>
 >>>Alex_MS_train.py
 >>>Alex_MS_test.py
 >>>compare_result.py
-
 >>based_on_ResNet:
 >>>soft_label:
 >>>>BoW.py
@@ -38,8 +34,7 @@ The file structure is as follows.<br>
 >>>ResNet_feature.py
 >>>ResNet_MS_train.py
 >>>ResNet_MS_test.py
->>>compare_result.py
-	
+>>>compare_result.py	
 >>based_on_VGG:
 >>>soft_label:
 >>>>BoW.py
@@ -52,7 +47,7 @@ The file structure is as follows.<br>
 >>>VGG_MS_train.py
 >>>VGG_MS_test.py
 >>>compare_result.py
-      
+
       
 3 Running requirements
 
