@@ -12,28 +12,29 @@ The file structure is as follows.
 
 MS-CNN:
   
-  data:
+        data:
       
-        train
+                train
 		  
-	val
+                val
 		  
-	test
+                test
 		  
-	datagenerate.py
+                datagenerate.py
   
-  public_dataset:
+        public_dataset:
       
-      	AID.zip
+      	        AID.zip
   		
-	NR.rar
+	        NR.rar
  
- based_on_Alex:
-      soft_label:
-				    BoW.py
-				    LDA.py
-				    buildsoftlabel.py
-				    dirichlet
+        based_on_Alex:
+                
+                soft_label:
+                                BoW.py
+                                LDA.py
+                                buildsoftlabel.py
+                                dirichlet
 		  Alex_train.py
 		  Alex_test.py
 		  Alex_feature.py
