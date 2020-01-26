@@ -8,9 +8,11 @@ The file structure is as follows.<br>
 >>>val<br>
 >>>test<br>
 >>>datagenerate.py<br>
+
 >>public_dataset:<br>
 >>>AID.zip<br>
 >>>NR.rar<br>
+
 >>based_on_Alex:<br>
 >>>soft_label:<br>
 >>>>BoW.py<br>
