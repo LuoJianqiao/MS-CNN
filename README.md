@@ -64,23 +64,22 @@ I use the MS-CNN to classify images from the NR dataset, with the ratios of the 
 One could realize the MS-CNN on the basis of Alex as follows.<br>
 1. open file ‘data/datagenerate.py’, add the path of the target dataset at line 13, and run the file.
 2. open the directory ‘based_on_Alex’.
-	3)run file ‘Alex_train.py’, and the training results are saved in the folder ‘train_hard’.
-	4)run file ‘Alex_test.py’, and the testing results are saved as ‘Alex_test.pickle’.
-	5)run file ‘Alex_feature.py’. The file would extract CNN features from the training and validation sets respectively. The features are saved as ‘train_feature.pickle’ and ‘val_feature.pickle’.
-	6)open the directory ‘based_on_Alex/soft_label’.
-	7)open file ‘BoW.py’ and add the path of the training set at line 26. Run the file.
-	8)run file ‘LDA.py’ to confuse and learn the CNN features.
-	9)run file ‘buildsoftlabel.py’ to generate soft labels ‘soft_label.npy’.
-	10)return to directory ‘based_on_Alex’.
-	11)run file ‘Alex_MS_train.py’, and the training results are saved in the folder ‘train_MS’.
-	12)run file ‘Alex_MS_test.py’, and the testing results are saved as ‘Alex_MS_test.pickle’.
-	13)run file ‘compare_result.py’ to compare the differences between the methods of Alex and MS-Alex.
-	14)The MS-CNN could also be implemented based on ResNet or VGG by using the codes in directory ‘based_on_ResNet’ or ‘based_on_VGG’.
+3. run file ‘Alex_train.py’, and the training results are saved in the folder ‘train_hard’.
+4. run file ‘Alex_test.py’, and the testing results are saved as ‘Alex_test.pickle’.
+5. run file ‘Alex_feature.py’. The file would extract CNN features from the training and validation sets respectively. The features are saved as ‘train_feature.pickle’ and ‘val_feature.pickle’.
+6. open the directory ‘based_on_Alex/soft_label’.
+7. open file ‘BoW.py’ and add the path of the training set at line 26. Run the file.
+9. run file ‘buildsoftlabel.py’ to generate soft labels ‘soft_label.npy’.
+10. return to directory ‘based_on_Alex’.
+11. run file ‘Alex_MS_train.py’, and the training results are saved in the folder ‘train_MS’.
+12. run file ‘Alex_MS_test.py’, and the testing results are saved as ‘Alex_MS_test.pickle’.
+13. run file ‘compare_result.py’ to compare the differences between the methods of Alex and MS-Alex.
+14. The MS-CNN could also be implemented based on ResNet or VGG by using the codes in directory ‘based_on_ResNet’ or ‘based_on_VGG’.
 
 
 # 5 others
 
-	Welcome to discuss with me. My e-mail is  luojianqiao@my.swjtu.edu.cn, or 18215675028@163.com.
+Welcome to discuss with me. My e-mail is  luojianqiao@my.swjtu.edu.cn, or 18215675028@163.com.
     
     
   
