@@ -19,12 +19,14 @@ The file structure is as follows.<br>
 >>>>LDA.py<br>
 >>>>buildsoftlabel.py<br>
 >>>>dirichlet<br>
+
 >>>Alex_train.py<br>
 >>>Alex_test.py<br>
 >>>Alex_feature.py<br>
 >>>Alex_MS_train.py<br>
 >>>Alex_MS_test.py<br>
 >>>compare_result.py<br>
+
 >>based_on_ResNet:
 >>>soft_label:
 >>>>BoW.py
