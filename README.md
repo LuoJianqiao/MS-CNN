@@ -27,30 +27,33 @@ The file structure is as follows.<br>
 >>>Alex_MS_test.py<br>
 >>>compare_result.py<br>
 
->>based_on_ResNet:
->>>soft_label:
->>>>BoW.py
->>>>LDA.py
->>>>buildsoftlabel.py
->>>>dirichlet
->>>ResNet_train.py
->>>ResNet_test.py
->>>ResNet_feature.py
->>>ResNet_MS_train.py
->>>ResNet_MS_test.py
->>>compare_result.py	
->>based_on_VGG:
->>>soft_label:
->>>>BoW.py
->>>>LDA.py
->>>>buildsoftlabel.py
->>>>dirichlet
->>>VGG_train.py
->>>VGG_test.py
->>>VGG_feature.py
->>>VGG_MS_train.py
->>>VGG_MS_test.py
->>>compare_result.py
+>>based_on_ResNet:<br>
+>>>soft_label:<br>
+>>>>BoW.py<br>
+>>>>LDA.py<br>
+>>>>buildsoftlabel.py<br>
+>>>>dirichlet<br>
+
+>>>ResNet_train.py<br>
+>>>ResNet_test.py<br>
+>>>ResNet_feature.py<br>
+>>>ResNet_MS_train.py<br>
+>>>ResNet_MS_test.py<br>
+>>>compare_result.py<br>
+
+>>based_on_VGG:<br>
+>>>soft_label:<br>
+>>>>BoW.py<br>
+>>>>LDA.py<br>
+>>>>buildsoftlabel.py<br>
+>>>>dirichlet<br>
+
+>>>VGG_train.py<br>
+>>>VGG_test.py<br>
+>>>VGG_feature.py<br>
+>>>VGG_MS_train.py<br>
+>>>VGG_MS_test.py<br>
+>>>compare_result.py<br>
 
       
 3 Running requirements
