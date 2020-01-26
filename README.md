@@ -19,7 +19,6 @@ The file structure is as follows.
         public_dataset:      
       	        AID.zip  		
 	        NR.rar
- 
         based_on_Alex:          
                 soft_label:
 			BoW.py
@@ -31,8 +30,7 @@ The file structure is as follows.
 		  Alex_feature.py
 		  Alex_MS_train.py
 		  Alex_MS_test.py
-		  compare_result.py
-	
+		  compare_result.py	
   	based_on_ResNet:
 		  soft_label:
 			BoW.py
