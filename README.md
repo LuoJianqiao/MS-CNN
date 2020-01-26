@@ -1,8 +1,6 @@
 # 1 Overviews
 The multi-task CNN with soft labels (MS-CNN) is a novel classification model. I realize the MS-CNN based on  Alex, ResNet, and VGG, respectively. The corresponding folders are ‘based_on_Alex’, ‘based_on_ResNet’, and ‘based_on_VGG’. Here we provider two public remote sensing datasets, the AID (the paper proposing the AID is *AID: A benchmark data set for performance evaluation of aerial scene classification,https://doi.org/10.1109/TGRS.2017.2685945*), and the NR(the paper proposing the NR is *Remote Sensing Image Scene Classification: Benchmark and State of the Art, https://doi.org/10.1109/JPROC.2017.2675998*).<br>
 
-![pipeline of MS-CNN](https://github.com/LuoJianqiao/MS-CNN/blob/master/FIG1.jpg)
-
 # 2 File structure
 The file structure is as follows.<br>
 >MS-CNN:<br>
@@ -81,7 +79,7 @@ One could realize the MS-CNN on the basis of Alex as follows.<br>
 
 # 5 others
 
-Welcome to discuss with me. My e-mail is  luojianqiao@my.swjtu.edu.cn, or 18215675028@163.com.
+Welcome to discuss with me. My e-mail is  luojianqiao@my.swjtu.edu.cn, or 18215675028@163.com. Without my permission, using this repository for academic publication or business is not allowed . 
     
     
   
