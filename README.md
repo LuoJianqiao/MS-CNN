@@ -13,14 +13,20 @@ The file structure is as follows.
 MS-CNN:
   
   data:
-      train
-		  val
-		  test
-		  datagenerate.py
+      
+        train
+		  
+	val
+		  
+	test
+		  
+	datagenerate.py
   
   public_dataset:
-      AID.zip
-  		NR.rar
+      
+      	AID.zip
+  		
+	NR.rar
  
  based_on_Alex:
       soft_label:
